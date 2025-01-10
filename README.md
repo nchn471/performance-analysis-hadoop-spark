@@ -16,11 +16,14 @@ This research aims to build a distributed data processing system architecture us
 2. How do system parameters specifically affect performance?
 3. How does the performance of MapReduce compare to Spark for specific problems?
 
-## Detail
-### Detailed deployment guide: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
+## Instructions
+If you want to read details about how we set up the architecture and our results, go:
 
-### Results **[report.pdf](Report.pdf)**
+- **Detailed deployment guide:** [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
+- **Results:** [report.pdf](Report.pdf)
 
+## Results
+This is the short overview about architecture and results.
 ### System Architecture
 
 The detailed configuration of the experimental setup is as follows:
@@ -32,10 +35,9 @@ The detailed configuration of the experimental setup is as follows:
 | Software            | JDK: 8<br>Hadoop: 3.2<br>Spark: 3.0 |
 | Workload            | WordCount and TeraSort problems |
 
-Detailed deployment guide: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
+More informations: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
 
 ### Results
-This is the overall result to see details go: [report.pdf](Report.pdf)
 #### MapReduce vs. Spark Comparison
 
 | **WordCount** | **MapReduce** | **Spark** | **Speedup (MapReduce/Spark)** |
@@ -79,3 +81,4 @@ Throughput is measured as the amount of data processed per unit time (MB/s). The
 - For **TeraSort**, Spark's throughput is 2 to 3 times higher than MapReduce.
 
 Overall, Spark's performance tends to be linear and scales well with increasing data sizes. In contrast, MapReduce's performance is non-linear and converges to a constant value as the input data size increases.
+Deep dive: [report.pdf](Report.pdf)
