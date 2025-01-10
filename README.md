@@ -6,7 +6,7 @@
 |:------:|:-------------:|
 | **21280099** | Nguyen Cong Hoai Nam |
 | **21280118** | Le Nguyen Hoang Uyen |
-| **21280124** | Huynh Cong Duc |
+| **21280124** | Huynh Nguyen The Dan |
 
 ## Summary
 
@@ -30,7 +30,7 @@ The detailed configuration of the experimental setup is as follows:
 Detailed deployment guide: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
 
 ### Results
-
+This is the overall result to see details go: [report.pdf](report.pdf)
 #### MapReduce vs. Spark Comparison
 
 | **WordCount** | **MapReduce** | **Spark** | **Speedup (MapReduce/Spark)** |
