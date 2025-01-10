@@ -16,6 +16,11 @@ This research aims to build a distributed data processing system architecture us
 2. How do system parameters specifically affect performance?
 3. How does the performance of MapReduce compare to Spark for specific problems?
 
+## Detail
+### Detailed deployment guide: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
+
+### Results **[report.pdf](Report.pdf)**
+
 ### System Architecture
 
 The detailed configuration of the experimental setup is as follows:
