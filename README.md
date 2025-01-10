@@ -30,7 +30,7 @@ The detailed configuration of the experimental setup is as follows:
 Detailed deployment guide: [Here](https://puffy-volleyball-97c.notion.site/Performance-Analysis-Between-Hadoop-and-Spark-using-HiBench-11fc4840c17c803db3caf41647b0e0de)
 
 ### Results
-This is the overall result to see details go: [report.pdf](report.pdf)
+This is the overall result to see details go: [report.pdf](Report.pdf)
 #### MapReduce vs. Spark Comparison
 
 | **WordCount** | **MapReduce** | **Spark** | **Speedup (MapReduce/Spark)** |
