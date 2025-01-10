@@ -81,4 +81,5 @@ Throughput is measured as the amount of data processed per unit time (MB/s). The
 - For **TeraSort**, Spark's throughput is 2 to 3 times higher than MapReduce.
 
 Overall, Spark's performance tends to be linear and scales well with increasing data sizes. In contrast, MapReduce's performance is non-linear and converges to a constant value as the input data size increases.
+
 Deep dive: [report.pdf](Report.pdf)
